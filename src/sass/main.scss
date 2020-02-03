@@ -2,5 +2,15 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'normalize.scss';
-@import 'base.scss';
+@import "normalize.scss";
+@import "base.scss";
+@import "promo.scss";
+
+/*---Colors---*/
+$first-color: red;
+$second-color: #000000;
+$minor-color: #7e7e7e;
+
+body {
+  font-family: "Oswald", sans-serif;
+}
