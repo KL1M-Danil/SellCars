@@ -2,14 +2,18 @@
  * Все паршалы импортировать в этот файл
  */
 
+
+
 @import "normalize.scss";
 @import "base.scss";
+@import "variables.scss";
+@import "slick.scss";
+@import "slick-theme.scss";
 @import "promo.scss";
+@import "steps.scss";
+@import "options.scss";
 
 /*---Colors---*/
-$first-color: red;
-$second-color: #000000;
-$minor-color: #7e7e7e;
 
 body {
   font-family: "Oswald", sans-serif;

@@ -1,0 +1,147 @@
+.options {
+  text-align: center;
+
+  &-title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &-item {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    padding: 0 10px;
+  }
+
+  &-name {
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    color: $first-color;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    b {
+      font-weight: bold;
+    }
+  }
+
+  &-img {
+    width: 95px;
+    height: 95px;
+    margin-bottom: 20px;
+  }
+
+  &-sublist {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &-subimg {
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+  }
+
+  &-subitem {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  &-text {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 991px) {
+  .options {
+    text-align: center;
+
+    &-title {
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 60px;
+    }
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    &-item {
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      text-align: center;
+      width: 250px;
+      padding: 0 10px;
+      margin-bottom: 30px;
+      height: 315px;
+    }
+
+    &-name {
+      font-weight: normal;
+      font-size: 28px;
+      text-align: center;
+      color: $first-color;
+      margin-top: 10px;
+      margin-bottom: 20px;
+
+      b {
+        font-weight: bold;
+      }
+    }
+
+    &-img {
+      width: 95px;
+      height: 95px;
+      margin-bottom: 20px;
+    }
+
+    &-sublist {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    &-subimg {
+      margin-right: 5px;
+      width: 25px;
+      height: 25px;
+    }
+
+    &-subitem {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    &-text {
+      padding: 0;
+      margin: 0;
+      font-weight: 300;
+      font-size: 22px;
+    }
+  }
+}
