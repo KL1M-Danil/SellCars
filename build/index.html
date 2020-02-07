@@ -12,29 +12,50 @@
       href="https://fonts.googleapis.com/css?family=Anton|Oswald:300,400,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <header class="header">
-      <a href="#" class="logo">
-        <h1 class="logo-name">sell<b>cars</b></h1>
-        <img src="/images/favicon.png" alt="logo" class="logo-img" />
-      </a>
+      <div class="header-wrap">
+        <a href="#" class="logo ">
+          <h1 class="logo-name">sell<b>cars</b></h1>
+          <img src="/images/favicon.png" alt="logo" class="logo-img" />
+        </a>
 
-      <ul class="header-menu is-closed">
-        <li class="header-menu-item">
-          <a href=""> <h3 class="header-menu-item-title">Выкуп</h3></a>
-        </li>
-        <li class="header-menu-item">
-          <a href=""> <h3 class="header-menu-item-title">Подбор</h3></a>
-        </li>
-        <li class="header-menu-item">
-          <a href=""> <h3 class="header-menu-item-title">Контакты</h3></a>
-        </li>
-      </ul>
+        <ul class="header-menu is-closed">
+          <li class="header-menu-item">
+            <a href="#options">
+              <h3 class="header-menu-item-title">Автовыкуп</h3></a
+            >
+          </li>
+          <li class="header-menu-item">
+            <a href="#cardefense">
+              <h3 class="header-menu-item-title">Подбор авто</h3></a
+            >
+          </li>
+          <li class="header-menu-item">
+            <a href="#cardefense">
+              <h3 class="header-menu-item-title">Посредничество</h3></a
+            >
+          </li>
+          <li class="header-menu-item">
+            <a href="#cardefense">
+              <h3 class="header-menu-item-title">Автострахование</h3></a
+            >
+          </li>
 
-      <img src="/images/menu.png" alt="menu-icon" class="header-burger " />
+          <li class="header-menu-item">
+            <a href=""> <h3 class="header-menu-item-title">Контакты</h3></a>
+          </li>
+        </ul>
+
+        <img src="/images/menu.png" alt="menu-icon" class="header-burger " />
+      </div>
     </header>
 
     <div class="promo">
@@ -42,12 +63,41 @@
         <div class="promo-bar">
           <div class="promo-sidebar">
             <h2 class="promo-title">Срочный автовыкуп</h2>
+            <p class="promo-sale">
+              мы предлагаем самую лучшую цену на ваше авто
+            </p>
             <p class="promo-subtitle">
               Любой марки авто, год выпуска не имеет значения, в любом
               состоянии, на Украинской регистрации и не только.
             </p>
           </div>
           <div class="promo-sidebar">
+            <div class="promo-contacts">
+              <a
+                href="tg://resolve?domain=molot0v"
+                target="_blank"
+                class="promo-link"
+              >
+                <img
+                  src="https://image.flaticon.com/icons/svg/2111/2111646.svg"
+                  alt=""
+                  class=" animated infinite pulse"
+                />
+                <h3 class="promo-contacts-title">telegram</h3>
+              </a>
+              <a
+                href="viber://add?number=380678763000"
+                target="_blank"
+                class="promo-link"
+              >
+                <img
+                  src="https://image.flaticon.com/icons/svg/185/185982.svg"
+                  alt=""
+                  class="animated infinite pulse"
+                />
+                <h3 class="promo-contacts-title">viber</h3>
+              </a>
+            </div>
             <a href="#" class="promo-btn">узнать больше</a>
           </div>
         </div>
@@ -89,7 +139,7 @@
       </ul>
     </div>
 
-    <div class="options">
+    <div class="options" id="options">
       <h2 class="options-title">Варианты выкупа</h2>
       <ul class="options-list">
         <li class="options-item">
@@ -108,12 +158,28 @@
               <img src="/images/check.png" alt="" class="options-subimg" />
               <h4 class="options-text">любой объем двигателя</h4>
             </li>
+            <li class="options-subitem">
+              <img src="/images/check.png" alt="" class="options-subimg" />
+              <h4 class="options-text">любой марки</h4>
+            </li>
+            <li class="options-subitem">
+              <img src="/images/check.png" alt="" class="options-subimg" />
+              <h4 class="options-text">любое модели</h4>
+            </li>
           </ul>
         </li>
         <li class="options-item">
           <h3 class="options-name">Выкуп <b>отечественного авто</b></h3>
           <img src="/images/options-2.png" alt="" class="options-img" />
           <ul class="options-sublist">
+            <li class="options-subitem">
+              <img src="/images/check.png" alt="" class="options-subimg" />
+              <h4 class="options-text">любой марки</h4>
+            </li>
+            <li class="options-subitem">
+              <img src="/images/check.png" alt="" class="options-subimg" />
+              <h4 class="options-text">любое модели</h4>
+            </li>
             <li class="options-subitem">
               <img src="/images/check.png" alt="" class="options-subimg" />
               <h4 class="options-text">любой год выпуска</h4>
@@ -175,6 +241,147 @@
           </ul>
         </li>
       </ul>
+    </div>
+
+    <div class="search">
+      <h2 class="search-title">Подбор авто</h2>
+      <div class="search-box">
+        <h3 class="search-coast">от 700грн</h3>
+        <ul class="search-list">
+          <li class="search-item">
+            <img
+              src="https://image.flaticon.com/icons/svg/483/483356.svg"
+              alt=""
+              class="search-img"
+            />
+            <p class="search-text">Выезд автоэксперта</p>
+          </li>
+          <li class="search-item">
+            <img
+              src="https://image.flaticon.com/icons/svg/483/483356.svg"
+              alt=""
+              class="search-img"
+            />
+            <p class="search-text">
+              Проверка кузова (ЛКП, геометрии и признаков ДТП)
+            </p>
+          </li>
+          <li class="search-item">
+            <img
+              src="https://image.flaticon.com/icons/svg/483/483356.svg"
+              alt=""
+              class="search-img"
+            />
+            <p class="search-text">
+              Проверка технической части (двигатель, КПП, проверка ходовой)
+            </p>
+          </li>
+          <li class="search-item">
+            <img
+              src="https://image.flaticon.com/icons/svg/483/483356.svg"
+              alt=""
+              class="search-img"
+            />
+            <p class="search-text">Проверка салона</p>
+          </li>
+          <li class="search-item">
+            <img
+              src="https://image.flaticon.com/icons/svg/483/483356.svg"
+              alt=""
+              class="search-img"
+            />
+            <p class="search-text">Тест-драйв</p>
+          </li>
+          <li class="search-item">
+            <img
+              src="https://image.flaticon.com/icons/svg/483/483356.svg"
+              alt=""
+              class="search-img"
+            />
+            <p class="search-text">Фото-видео отчет</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="cooperation">
+      <img src="/images/cooperation.png" alt="" class="cooperation-img" />
+      <div class="cooperation-box">
+        <h2 class="cooperation-title">Посредничество</h2>
+        <p class="cooperation-text">
+          Услуги посредника мы оплачиваем, если через Вас мы приобрели
+          автомобиль, Вы получаете финансовое вознаграждение от 100$ Для этого
+          Вам нужно предоставить нам информацию о продаже авто, свести нас с
+          продавцом и в случае удачной сделки вы получаете деньги.
+        </p>
+        <p class="cooperation-text">
+          Без проблем можем выкупить устаревший автопарк компании в которой вы
+          работаете и с каждой машины Вы получите от 100$ Работаем с
+          посредниками честно и прозрачно.
+        </p>
+      </div>
+    </div>
+
+    <div class="cardefense" id="cardefense">
+      <h2 class="cardefense-title">Автострахование</h2>
+      <div class="cardefense-wrap">
+        <div class="cardefense-box">
+          <p class="cardefense-subtitle">
+            <b>Автострахование</b> - это надежная защита Вашего автомобиля или
+            другого транспортного средства от повреждения или потери, а также
+            страхование ответственности водителя. Страховка авто нужна даже
+            опытным водителям, которые оставили под колесами не одну сотню тысяч
+            километров.
+          </p>
+          <ul class="cardefense-list">
+            <li class="cardefense-item">
+              <img
+                src="/images/cardefense-icon1.png"
+                alt=""
+                class="cardefense-item-img"
+              />
+              <p class="cardefense-item-text">
+                Добровольное страхование наземного транспорта <b>(КАСКО)</b> -
+                страхование транспортных средств от угона, повреждения,
+                уничтожения, потери вследствие дорожно-транспортного
+                происшествия, незаконного завладения, пожара, взрыва, стихийного
+                бедствия, противоправных действий третьих лиц, внешнего
+                воздействия посторонних предметов.
+              </p>
+            </li>
+            <li class="cardefense-item">
+              <img
+                src="/images/cardefense-icon2.png"
+                alt=""
+                class="cardefense-item-img"
+              />
+              <p class="cardefense-item-text">
+                Обязательное страхование гражданско-правовой ответственности
+                владельцев наземных транспортных средств <b>(ОСАГО)</b> - это
+                вид страхования, который направлен на обеспечение возмещения
+                вреда, причиненного жизни, здоровью и имуществу потерпевших при
+                эксплуатации транспортных средств на территории Украины.
+              </p>
+            </li>
+            <li class="cardefense-item">
+              <img
+                src="/images/cardefense-icon3.png"
+                alt=""
+                class="cardefense-item-img"
+              />
+              <p class="cardefense-item-text">
+                Страховка авто по программе <b>«Автозащита»</b> обеспечивает
+                владельцу полиса «Автогражданки» защиту его транспортного
+                средства от повреждения и / или уничтожения в результате
+                дорожно-транспортного происшествия (ДТП), произошедшего
+                исключительно по его вине или по вине водителя застрахованного
+                авто, при наличии двух или более участников.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <img src="/images/cardefense.png" alt="" class="cardefense-img" />
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

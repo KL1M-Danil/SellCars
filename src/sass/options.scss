@@ -1,10 +1,13 @@
 .options {
   text-align: center;
+  background-color: #f4f6f8;
+
 
   &-title {
     font-weight: bold;
     font-size: 36px;
     text-align: center;
+    padding-top: 20px;
     margin-bottom: 60px;
   }
 
@@ -14,14 +17,25 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
+    max-width: 1480px;
+    width: 90%;
+    margin: auto;
   }
 
   &-item {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.2s;
     border-radius: 10px;
     text-align: center;
     width: 250px;
     padding: 0 10px;
+    background-color: #fff;
+
+    &:hover {
+      box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.8);
+      transition: 0.2s;
+      transform: translateY(-20px);
+    }
   }
 
   &-name {
@@ -64,10 +78,11 @@
   }
 
   &-text {
+    font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
     font-weight: 300;
-    font-size: 22px;
+    font-size: 20px;
   }
 }
 
@@ -95,7 +110,7 @@
       width: 250px;
       padding: 0 10px;
       margin-bottom: 30px;
-      height: 315px;
+      
     }
 
     &-name {
@@ -114,7 +129,7 @@
     &-img {
       width: 95px;
       height: 95px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     &-sublist {
@@ -125,8 +140,8 @@
 
     &-subimg {
       margin-right: 5px;
-      width: 25px;
-      height: 25px;
+      width: 20px;
+      height: 20px;
     }
 
     &-subitem {
@@ -141,7 +156,8 @@
       padding: 0;
       margin: 0;
       font-weight: 300;
-      font-size: 22px;
+      font-size: 18px;
+      color: #666;
     }
   }
 }

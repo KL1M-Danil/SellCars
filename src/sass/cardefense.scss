@@ -1,0 +1,136 @@
+.cardefense {
+  background-image: url("/images/cardefense-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &-wrap {
+    max-width: 1480px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+
+  &-title {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0;
+    margin-bottom: 60px;
+  }
+
+  &-subtitle {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 60px;
+    max-width: 900px;
+  }
+
+  &-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &-item {
+    display: flex;
+    margin-bottom: 50px;
+    max-width: 650px;
+
+    &-img {
+      width: 80px;
+      height: 80px;
+      margin-right: 15px;
+    }
+
+    &-text {
+      margin: 0;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 27px;
+
+      b {
+        font-weight: 500;
+      }
+    }
+  }
+
+  &-img {
+    height: 656px;
+  }
+}
+
+@media (max-width: 991px) {
+  .cardefense {
+    background-image: url("/images/cardefense-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-wrap {
+      max-width: 1480px;
+      width: 90%;
+      margin: auto;
+      display: flex;
+    }
+
+    &-title {
+      font-weight: bold;
+      font-size: 36px;
+      text-align: center;
+      padding-top: 20px;
+      margin-bottom: 60px;
+    }
+
+    &-subtitle {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 22px;
+      line-height: 26px;
+      margin-top: 0;
+      margin-bottom: 60px;
+      max-width: 900px;
+    }
+
+    &-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    &-item {
+      display: flex;
+      margin-bottom: 50px;
+      max-width: 650px;
+
+      &-img {
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+      }
+
+      &-text {
+        margin: 0;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 27px;
+
+        b {
+          font-weight: 500;
+        }
+      }
+    }
+
+    &-img {
+      display: none;
+    }
+  }
+}
