@@ -22,25 +22,23 @@ $(".header-menu-item").click(function() {
 });
 
 $(document).ready(function() {
-  $(".test").slick({
-
-  });
+  $(".test").slick({});
 });
 
 //Плавность якорей
 
 // $(document).ready(function() {
-//     //ID блока с ссылками #prime_nav
-//     $(".nav-menu").on("click", "a", function(event) {
-//       //отменяем стандартную обработку нажатия по ссылке
-//       //event.preventDefault();
+//   //ID блока с ссылками #prime_nav
+//   $(".header-menu-link").on("click", "a", function(event) {
+//     //отменяем стандартную обработку нажатия по ссылке
+//     //event.preventDefault();
 
-//       //забираем идентификатор бока с атрибута href
-//       var id = $(this).attr("href"),
-//         //узнаем высоту от начала страницы до блока на который ссылается якорь
-//         top = $(id).offset().top;
+//     //забираем идентификатор бока с атрибута href
+//     var id = $(this).attr("href"),
+//       //узнаем высоту от начала страницы до блока на который ссылается якорь
+//       top = $(id).offset().top;
 
-//       //анимируем переход на расстояние - top за 1200 мс
-//       $("body, html").animate({ scrollTop: top }, 1200);
-//     });
+//     //анимируем переход на расстояние - top за 1200 мс
+//     $("body, html").animate({ scrollTop: top }, 1200);
 //   });
+// });

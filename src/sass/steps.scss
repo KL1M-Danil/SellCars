@@ -1,5 +1,5 @@
 .steps {
-    max-width: 1480px;
+  max-width: 1480px;
   width: 90%;
   margin: auto;
 
@@ -39,9 +39,15 @@
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
-    width: 290px;
+
     margin: 0;
     color: #666;
+  }
+}
+
+@media (min-width: 991px) {
+  .steps-text {
+    width: 290px;
   }
 }
 
@@ -85,9 +91,8 @@
 
     &-text {
       font-weight: 300;
-      font-size: 20px;
+      font-size: 18px;
       line-height: 36px;
-      
     }
   }
 }

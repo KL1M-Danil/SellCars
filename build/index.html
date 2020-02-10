@@ -28,29 +28,56 @@
         </a>
 
         <ul class="header-menu is-closed">
-          <li class="header-menu-item">
+          <li class="header-menu-item ">
             <a href="#options">
-              <h3 class="header-menu-item-title">Автовыкуп</h3></a
+              <img
+                src="/images/car.png"
+                alt="car"
+                class="header-menu-item-img"
+              />
+              <h3 class="header-menu-item-title ">Автовыкуп</h3></a
             >
           </li>
-          <li class="header-menu-item">
-            <a href="#cardefense">
+          <li class="header-menu-item ">
+            <a href="#search">
+              <img
+                src="/images/search.png"
+                alt="search"
+                class="header-menu-item-img"
+              />
               <h3 class="header-menu-item-title">Подбор авто</h3></a
             >
           </li>
-          <li class="header-menu-item">
-            <a href="#cardefense">
+          <li class="header-menu-item  ">
+            <a href="#cooperation">
+              <img
+                src="/images/handshake.png"
+                alt="handshake"
+                class="header-menu-item-img"
+              />
               <h3 class="header-menu-item-title">Посредничество</h3></a
             >
           </li>
-          <li class="header-menu-item">
+          <li class="header-menu-item  ">
             <a href="#cardefense">
+              <img
+                src="/images/shield.png"
+                alt="shield"
+                class="header-menu-item-img"
+              />
               <h3 class="header-menu-item-title">Автострахование</h3></a
             >
           </li>
 
           <li class="header-menu-item">
-            <a href=""> <h3 class="header-menu-item-title">Контакты</h3></a>
+            <a href="#contacts">
+              <img
+                src="/images/phone.png"
+                alt="phone"
+                class="header-menu-item-img"
+              />
+              <h3 class="header-menu-item-title">Контакты</h3></a
+            >
           </li>
         </ul>
 
@@ -59,11 +86,11 @@
     </header>
 
     <div class="promo">
-      <div class="promo-box">
+      <div class="promo-box wow fadeInUp">
         <div class="promo-bar">
           <div class="promo-sidebar">
             <h2 class="promo-title">Срочный автовыкуп</h2>
-            <p class="promo-sale">
+            <p class="promo-sale wow swing" data-wow-delay="1s">
               мы предлагаем самую лучшую цену на ваше авто
             </p>
             <p class="promo-subtitle">
@@ -72,6 +99,23 @@
             </p>
           </div>
           <div class="promo-sidebar">
+            <div class="promo-target">
+              <img
+                src="/images/arrow.png"
+                alt="arrow"
+                class="promo-target-img wow bounce infinite"
+                data-wow-delay="1.2s"
+              />
+              <h3 class="promo-target-title animated infinite pulse">
+                Напиши нам
+              </h3>
+              <img
+                src="/images/arrow.png"
+                alt="arrow"
+                class="promo-target-img wow bounce infinite"
+                data-wow-delay="1.2s"
+              />
+            </div>
             <div class="promo-contacts">
               <a
                 href="tg://resolve?domain=molot0v"
@@ -80,7 +124,7 @@
               >
                 <img
                   src="https://image.flaticon.com/icons/svg/2111/2111646.svg"
-                  alt=""
+                  alt="telegram"
                   class=" animated infinite pulse"
                 />
                 <h3 class="promo-contacts-title">telegram</h3>
@@ -92,13 +136,20 @@
               >
                 <img
                   src="https://image.flaticon.com/icons/svg/185/185982.svg"
-                  alt=""
+                  alt="viber"
                   class="animated infinite pulse"
                 />
                 <h3 class="promo-contacts-title">viber</h3>
               </a>
+              <a class="contacts-tel" href="tel:+380678828877"
+                >+380678828877
+              </a>
+              <a class="contacts-tel" href="tel:+380957193000"
+                >+380957193000
+              </a>
+              <a class="contacts-tel" href="tel:+380954204233">+380954204233</a>
             </div>
-            <a href="#" class="promo-btn">узнать больше</a>
+            <a href="#contacts" class="promo-btn">узнать больше</a>
           </div>
         </div>
       </div>
@@ -108,7 +159,7 @@
       <h2 class="steps-title">Три простых шага для продажи Вашего авто:</h2>
       <ul class="steps-list">
         <li class="steps-item">
-          <img src="/images/step1.png" alt="" class="steps-img" />
+          <img src="/images/step1.png" alt="number1" class="steps-img" />
           <div class="steps-box">
             <h3 class="steps-name">Свяжитесь с нами</h3>
             <p class="steps-text">
@@ -118,7 +169,7 @@
           </div>
         </li>
         <li class="steps-item">
-          <img src="/images/step2.png" alt="" class="steps-img" />
+          <img src="/images/step2.png" alt="number2" class="steps-img" />
           <div class="steps-box">
             <h3 class="steps-name">Выезд специалиста</h3>
             <p class="steps-text">
@@ -127,7 +178,7 @@
           </div>
         </li>
         <li class="steps-item">
-          <img src="/images/step3.png" alt="" class="steps-img" />
+          <img src="/images/step3.png" alt="number3" class="steps-img" />
           <div class="steps-box">
             <h3 class="steps-name">Быстрый расчет</h3>
             <p class="steps-text">
@@ -142,116 +193,144 @@
     <div class="options" id="options">
       <h2 class="options-title">Варианты выкупа</h2>
       <ul class="options-list">
-        <li class="options-item">
+        <li class="options-item wow slideInUp">
           <h3 class="options-name">Выкуп <b>иномарок</b></h3>
-          <img src="/images/options-1.png" alt="" class="options-img" />
+          <img src="/images/options-1.png" alt="car" class="options-img" />
           <ul class="options-sublist">
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любой год выпуска</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любое тех. состояние</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любой объем двигателя</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любой марки</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любое модели</h4>
             </li>
           </ul>
         </li>
-        <li class="options-item">
+        <li class="options-item wow slideInUp">
           <h3 class="options-name">Выкуп <b>отечественного авто</b></h3>
-          <img src="/images/options-2.png" alt="" class="options-img" />
+          <img src="/images/options-2.png" alt="car" class="options-img" />
           <ul class="options-sublist">
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любой марки</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любое модели</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любой год выпуска</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любое тех. состояние</h4>
             </li>
           </ul>
         </li>
-        <li class="options-item">
+        <li class="options-item wow slideInUp">
           <h3 class="options-name">Выкуп <b>кредитного авто</b></h3>
-          <img src="/images/options-3.png" alt="" class="options-img" />
+          <img src="/images/options-3.png" alt="car" class="options-img" />
           <ul class="options-sublist">
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">оплачиваем за Вас долг</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">выплачиваем Вам часть за авто</h4>
             </li>
           </ul>
         </li>
-        <li class="options-item">
+        <li class="options-item wow slideInUp">
           <h3 class="options-name">Выкуп <b>авто под разборку</b></h3>
-          <img src="/images/options-4.png" alt="" class="options-img" />
+          <img src="/images/options-4.png" alt="car" class="options-img" />
           <ul class="options-sublist">
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любая марка</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любая регистрация</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любое тех. состояние</h4>
             </li>
           </ul>
         </li>
-        <li class="options-item">
+        <li class="options-item wow slideInUp">
           <h3 class="options-name">Выкуп <b>авто после ДТП</b></h3>
-          <img src="/images/options-5.png" alt="" class="options-img" />
+          <img src="/images/options-5.png" alt="car" class="options-img" />
           <ul class="options-sublist">
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">сгоревшие</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">аварийные</h4>
             </li>
             <li class="options-subitem">
-              <img src="/images/check.png" alt="" class="options-subimg" />
+              <img src="/images/check.png" alt="check" class="options-subimg" />
               <h4 class="options-text">любого состояния</h4>
             </li>
           </ul>
         </li>
       </ul>
+
+      <p class="options-description">
+        Вам нужно Срочно продать авто и получить наличные? Устали от
+        самостоятельной продажи? Купим Ваше АВТО максимально быстро! Все вопросы
+        с оформлением и затратами берем на себя.
+      </p>
+      <p class="options-description">
+        Покупаем любые авто Украинской регистрации и не только. Легковые,
+        внедорожники, паркетники, микроавтобусы. Рассмотрим все предложения.
+        Покупаем авто после ДТП. Купим авто с проблемными документами. Купим
+        автомобиль в кредите или залоге по выгодной для Вас цене.
+      </p>
+      <p class="options-description">
+        Предварительная оценка в телефонном режиме в течение 15-20 минут. Если
+        примерно по цене устраивает Вас и нас, мы приезжаем, осматриваем в
+        течение 10 минут Ваш авто, и едем на оформление.
+      </p>
+      <p class="options-description">
+        Предложим максимальную цену! Выгодно! Порядочно! Оперативно! Просто!
+        Выкуп в течение часа!
+      </p>
+      <p class="options-description">
+        Не тратьте время на самостоятельную продажу! Звоните и мы все заботы с
+        продажей примем на себя! Работаем по всей Украине.
+      </p>
+      <p class="options-description">
+        Мы ценим Ваше время! Высокий уровень сервиса гарантируется!
+      </p>
     </div>
 
-    <div class="search">
+    <div class="search" id="search">
       <h2 class="search-title">Подбор авто</h2>
       <div class="search-box">
-        <h3 class="search-coast">от 700грн</h3>
+        <h3 class="search-coast wow zoomIn">от 700грн</h3>
         <ul class="search-list">
           <li class="search-item">
             <img
               src="https://image.flaticon.com/icons/svg/483/483356.svg"
-              alt=""
+              alt="search"
               class="search-img"
             />
             <p class="search-text">Выезд автоэксперта</p>
@@ -259,7 +338,7 @@
           <li class="search-item">
             <img
               src="https://image.flaticon.com/icons/svg/483/483356.svg"
-              alt=""
+              alt="search"
               class="search-img"
             />
             <p class="search-text">
@@ -269,7 +348,7 @@
           <li class="search-item">
             <img
               src="https://image.flaticon.com/icons/svg/483/483356.svg"
-              alt=""
+              alt="search"
               class="search-img"
             />
             <p class="search-text">
@@ -279,7 +358,7 @@
           <li class="search-item">
             <img
               src="https://image.flaticon.com/icons/svg/483/483356.svg"
-              alt=""
+              alt="search"
               class="search-img"
             />
             <p class="search-text">Проверка салона</p>
@@ -287,7 +366,7 @@
           <li class="search-item">
             <img
               src="https://image.flaticon.com/icons/svg/483/483356.svg"
-              alt=""
+              alt="search"
               class="search-img"
             />
             <p class="search-text">Тест-драйв</p>
@@ -295,17 +374,54 @@
           <li class="search-item">
             <img
               src="https://image.flaticon.com/icons/svg/483/483356.svg"
-              alt=""
+              alt="search"
               class="search-img"
             />
             <p class="search-text">Фото-видео отчет</p>
           </li>
         </ul>
       </div>
+      <p class="search-description">
+        Поможем подобрать автомобиль который в дальнейшем будет приносит вам
+        только положительные эмоции. Мы занимаемся покупкой и продажей
+        автомобилей 20 лет поэтому знаем все подводные камни и махинации которые
+        применяют не добросовестные продавцы и сможем уберечь вас от них. Наши
+        услуги:
+      </p>
+      <ul class="search-description-list">
+        <li>
+          Диагностика автомобиля перед покупкой. Выезд к авто (возможно без
+          Вашего присутствия)
+        </li>
+        <li>
+          Выявление повторно окрашенных кузовных элементов, нарушения геометрии
+          кузова
+        </li>
+        <li>
+          Осмотр узлов, на предмет механических повреждений, утечки рабочих
+          жидкостей (масло, ГУР, антифриз).
+        </li>
+        <li>
+          Проверка основных узлов: двигатель, АКПП/МКПП, рулевое управление,
+          система торможения, кондиционирование и отопления салона, подушки
+          безопасности и т.д.
+        </li>
+        <li>
+          Сопровождение при оформлении в сервисном центре
+        </li>
+        <li>
+          Вы живете в другом городе, мы сможем осмотреть авто и выслать фото и
+          видео отчет.
+        </li>
+      </ul>
     </div>
 
-    <div class="cooperation">
-      <img src="/images/cooperation.png" alt="" class="cooperation-img" />
+    <div class="cooperation" id="cooperation">
+      <img
+        src="/images/cooperation.png"
+        alt="cooperation"
+        class="cooperation-img"
+      />
       <div class="cooperation-box">
         <h2 class="cooperation-title">Посредничество</h2>
         <p class="cooperation-text">
@@ -337,8 +453,8 @@
             <li class="cardefense-item">
               <img
                 src="/images/cardefense-icon1.png"
-                alt=""
-                class="cardefense-item-img"
+                alt="cardefense-icon1"
+                class="cardefense-item-img wow jackInTheBox"
               />
               <p class="cardefense-item-text">
                 Добровольное страхование наземного транспорта <b>(КАСКО)</b> -
@@ -352,8 +468,8 @@
             <li class="cardefense-item">
               <img
                 src="/images/cardefense-icon2.png"
-                alt=""
-                class="cardefense-item-img"
+                alt="cardefense-icon2"
+                class="cardefense-item-img wow jackInTheBox"
               />
               <p class="cardefense-item-text">
                 Обязательное страхование гражданско-правовой ответственности
@@ -366,8 +482,8 @@
             <li class="cardefense-item">
               <img
                 src="/images/cardefense-icon3.png"
-                alt=""
-                class="cardefense-item-img"
+                alt="cardefense-icon3"
+                class="cardefense-item-img wow jackInTheBox"
               />
               <p class="cardefense-item-text">
                 Страховка авто по программе <b>«Автозащита»</b> обеспечивает
@@ -380,12 +496,49 @@
             </li>
           </ul>
         </div>
-        <img src="/images/cardefense.png" alt="" class="cardefense-img" />
+        <img
+          src="/images/cardefense.png"
+          alt="cardefense"
+          class="cardefense-img"
+        />
       </div>
+    </div>
+
+    <div class="contacts" id="contacts">
+      <a class="contacts-tel" href="tel:+380678828877">+380678828877 </a>
+      <a class="contacts-tel" href="tel:+380957193000">+380957193000 </a>
+      <a class="contacts-tel" href="tel:+380954204233">+380954204233</a>
+      <a
+        href="tg://resolve?domain=molot0v"
+        target="_blank"
+        class="contacts-link"
+      >
+        <img
+          src="https://image.flaticon.com/icons/svg/2111/2111646.svg"
+          alt="telegram"
+          class="contacts-img animated infinite pulse"
+        />
+        <h3 class="contacts-title">telegram</h3>
+      </a>
+      <a
+        href="viber://add?number=380678763000"
+        target="_blank"
+        class="contacts-link"
+      >
+        <img
+          src="https://image.flaticon.com/icons/svg/185/185982.svg"
+          alt="viber"
+          class="contacts-img animated infinite pulse"
+        />
+        <h3 class="contacts-title">viber</h3>
+      </a>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

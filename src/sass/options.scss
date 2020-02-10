@@ -1,7 +1,7 @@
 .options {
   text-align: center;
   background-color: #f4f6f8;
-
+  padding-bottom: 40px;
 
   &-title {
     font-weight: bold;
@@ -20,6 +20,7 @@
     max-width: 1480px;
     width: 90%;
     margin: auto;
+    margin-bottom: 40px;
   }
 
   &-item {
@@ -84,6 +85,13 @@
     font-weight: 300;
     font-size: 20px;
   }
+
+  &-description {
+    max-width: 1480px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -110,7 +118,6 @@
       width: 250px;
       padding: 0 10px;
       margin-bottom: 30px;
-      
     }
 
     &-name {
